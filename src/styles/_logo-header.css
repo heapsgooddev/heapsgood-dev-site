@@ -1,0 +1,65 @@
+/* 
+ * logo + text main header
+ */
+
+.logo-header {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* logo pic + text */
+.logo {
+  position: relative;
+}
+
+.logo__splash-pic {
+  height: var(--layout-main-logo-size);
+  width: var(--layout-main-logo-width-size);
+}
+
+/* responsive resize for < browser */
+@media (max-width: 768px) {
+  .logo__splash-pic {
+    height: var(--layout-main-logo-size-md);
+    width: var(--layout-main-logo-width-size-md);
+  }
+}
+/* responsive resize for mobile */
+@media (max-width: 576px) {
+  .logo__splash-pic {
+    height: var(--layout-main-logo-size-sm);
+    width: var(--layout-main-logo-width-size-sm);
+  }
+}
+
+/* profile links */
+.splash-links {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.splash-links__icon-button {
+  display: block;
+  color: var(--color-primary-on-bg);
+  display: block;
+  height: var(--splash-links-height);
+  width: var(--splash-links-height);
+}
+
+.splash-links__icon-button:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.splash-links__icon-button:hover {
+  color: var(--color-primary-on-bg-hover);
+}
+
+/* responsive resize for < desktop */
+@media (max-width: 768px) {
+}
+/* responsive resize for mobile */
+@media (max-width: 576px) {
+}
