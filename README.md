@@ -1,2 +1,3 @@
-# heapsgood-dev-site
+# heapsgooddev-site
+
 the heapsgood dev website 🙌
