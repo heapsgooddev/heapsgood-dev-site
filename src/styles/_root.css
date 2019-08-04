@@ -1,0 +1,34 @@
+:root {
+  /* colors */
+  --color-primary: #000;
+  --color-secondary: #44a4ec;
+  --color-accent1: #44a4ec;
+  --color-accent2: #44a4ec;
+  --color-white: #fff;
+  --color-primary-bg: #fff;
+  --color-primary-on-bg: #000;
+  --color-primary-on-bg-hover: #44a4ec;
+  --color-on-primary: #000;
+  --color-on-primary-border: #fff;
+  /* breakpoints */
+  --media-xs: 320px;
+  --media-sm: 576px;
+  --media-md: 768px;
+  --media-lg: 992px;
+  --media-xl: 1200px;
+  /* layout */
+  --layout-main-logo-width: 530px;
+  --layout-main-logo-width-md: 355px;
+  --layout-main-logo-width-sm: 300px;
+  --layout-main-logo-size: 410px;
+  --layout-main-logo-width-size: 300px;
+  --layout-main-logo-size-md: 410px;
+  --layout-main-logo-width-size-md: 300px;
+  --layout-main-logo-size-sm: 390px;
+  --layout-main-logo-width-size-sm: 280px;
+  --layout-main-logo-font-size: 6rem;
+  --layout-main-logo-font-size-md: 4rem;
+  --layout-main-logo-font-size-sm: 3.5rem;
+  /* misc */
+  --splash-links-height: 55px;
+}
